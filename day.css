@@ -1,0 +1,40 @@
+
+.flag{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.safron{
+    background-color: rgb(255, 115, 0);
+    height: 8rem;
+    width: 42rem;
+}
+.white{
+    background-color: rgb(255, 255, 255);
+    height: 8rem;
+    width: 42rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    background-color: rgb(2, 172, 2);
+    height: 8rem;
+    width: 42rem;
+}
+img{
+    width: 9rem;
+    height: 9rem;
+    animation: rotate 4s linear infinite;
+    
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
